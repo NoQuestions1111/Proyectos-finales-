@@ -47,11 +47,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_FILES['imagen'])) {
         body {
             height: 100%;
             margin: 0;
-            background: linear-gradient(to right, #f1e1a6, #f7a6c7) !important ;
+            background: linear-gradient(to right, #f1e1a6,rgb(166, 247, 173)) !important ;
         }
 
         h1 {
-            background: linear-gradient(to right, #f1e1a6, #f7a6c7);
+            background: linear-gradient(to right, #f1e1a6,rgb(166, 247, 178));
             color: #ffffff;
             font-size: 36px;
             text-align: center;
